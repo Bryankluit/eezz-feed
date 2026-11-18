@@ -1,0 +1,286 @@
+﻿sleutel;park;plaats;landcode;adres;postcode;regio;latitude;longitude;bron
+aquadelta|Bruinisse|NL;Aquadelta;Bruinisse;NL;Hartengang;4311 NG;Zeeland;51.665220;4.085170;osm-park
+arden-parks-baalse-hei|Turnhout|BE;Arden Parks - Baalse Hei;Turnhout;BE;Roodhuisstraat 10;2300;Turnhout;51.358990;4.962966;osm-park
+arden-parks-petite-suisse|Dochamps|BE;Arden Parks - Petite Suisse;Dochamps;BE;La Chavée;6960;Dochamps;50.231999;5.630795;osm-park
+arden-parks-signy-l-abbaye|Signy-l’abbaye|FR;Arden Parks - Signy l'Abbaye;Signy-l’abbaye;FR;Route de la Vénerie 20;08460;Signy-l'Abbaye;49.703512;4.404026;osm-park
+arden-parks-tulderheyde|Ravels|BE;Arden Parks - Tulderheyde;Ravels;BE;Tulderheyde;2382;Ravels;51.441201;5.076692;osm-park
+beach-resort-kamperland|Kamperland|NL;Beach Resort Kamperland;Kamperland;NL;Sophiaweg;4493 PS;Zeeland;51.588732;3.714865;osm-park
+boerencamping-duinzoomhoeve|Julianadorp|NL;Boerencamping Duinzoomhoeve;Julianadorp;NL;Boerencamping Duinzoomhoeve;1788 LT;Noord-Holland;52.890704;4.744613;osm-plaats
+bospark-t-wolfsven|Mierlo|NL;Bospark ‘t Wolfsven;Mierlo;NL;Patrijslaan 4;5731 XN;Brabant;51.438530;5.585688;osm-park
+boutique-parc-pharshoeke|Heeg|NL;Boutique Parc Pharshoeke;Heeg;NL;Boutique Parc Pharshoeke;8621 DG;Friesland;52.970948;5.610946;osm-plaats
+bungalowpark-de-horn|Dirkshorn|NL;Bungalowpark de Horn;Dirkshorn;NL;Park De Horn;1746 AX;Noord-Holland;52.745909;4.775343;osm-park
+bungalowpark-herkingen|Herkingen|NL;Bungalowpark Herkingen;Herkingen;NL;Plan Herkingen West;3249 BV;Zuid-Holland;51.710737;4.081202;osm-park
+bungalowpark-landsrade|Gulpen|NL;Bungalowpark Landsrade;Gulpen;NL;Landsrade;6271 NZ;Limburg;50.783806;5.885254;osm-park
+bungalowpark-simpelveld|Simpelveld|NL;Bungalowpark Simpelveld;Simpelveld;NL;Bungalowpark Simpelveld;6369 WB;Limburg;50.830812;5.984685;osm-plaats
+bungalowpark-wighenerhorst|Wijchen|NL;Bungalowpark Wighenerhorst;Wijchen;NL;Bungalowpark Wighenerhorst;6615 AH;Gelderland;51.820253;5.696090;osm-plaats
+camp-diekirch|Diekirch|LU;Camp Diekirch;Diekirch;LU;Camp Diekirch;9255;Diekirch;49.869090;6.160055;osm-plaats
+camping-2000||CZ;Camping 2000;Janův Důl;CZ;27239;463 52;Jeschkengebergte (CZ);50.702290;14.939516;osm-park
+camping-begur||ES;Camping Begur;Gerona;ES;Camping Begur;17002;Girona;41.979301;2.819944;osm-regio
+camping-de-duindoorn|Ijmuiden aan Zee|NL;Camping de Duindoorn;Ijmuiden aan Zee;NL;Badweg;1976 BH;Noord-Holland;52.454199;4.572177;osm-park
+camping-de-duindoorn|Ijmuiden|NL;Camping de Duindoorn;Ijmuiden;NL;Badweg;1976 BZ;Noord-Holland;52.455703;4.573258;osm-park
+camping-de-molenhof|Reutum|NL;Camping de Molenhof;Reutum;NL;Oldenzaalseweg;7667 RR;Overijssel;52.367283;6.843559;osm-park
+camping-de-wartenster|Warten|NL;Camping De Wartenster;Warten;NL;Ald Skroetswei;9003 LB;Friesland;53.149133;5.876483;osm-park
+camping-de-zandput|Vrouwenpolder|NL;Camping de Zandput;Vrouwenpolder;NL;Vroondijk;4354 NN;Zeeland;51.586202;3.605686;osm-park
+camping-gritt||LU;Camping Gritt;Ingeldorf;LU;Um Gritt 2;9161;Ingeldorf;49.851827;6.137058;osm-park
+camping-in-de-bongerd|Oostkapelle|NL;Camping In de Bongerd;Oostkapelle;NL;Camping In de Bongerd;4356 AJ;Zeeland;51.565452;3.550904;osm-plaats
+camping-le-clou||FR;Camping Le Clou;Coux et Bigaroque-Mouzens;FR;Route de Saint-Georges;24220;Coux et Bigaroque-Mouzens;44.862868;0.981276;osm-park
+camping-natuurlijk-limburg|Voeren|BE;Camping Natuurlijk Limburg;Voeren;BE;Roodbos 3;3791;Limburg (B);50.729220;5.866538;osm-park
+camping-ont-moeten|Rekken|NL;Camping Ont moeten;Rekken;NL;Rekkenseweg 25;7157 AB;Gelderland;52.095128;6.686117;osm-park
+camping-papillon-bouillon|Bouillon|BE;Camping Papillon Bouillon;Bouillon;BE;Vieille Route de France 64;6830;Limburg (B);49.781277;5.063778;osm-park
+camping-papillon-bouillon|Overig Nederland|BE;Camping Papillon Bouillon;Overig Nederland;BE;Camping Papillon Bouillon;3700;Limburg (B);50.790876;5.495115;osm-regio
+camping-papillon-kinrooi|Kinrooi|BE;Camping Papillon Kinrooi;Kinrooi;BE;Steyvershofstraat 14;3640;Limburg (B);51.132367;5.753257;osm-park
+camping-paradiso||IT;Camping Paradiso;Torre del Lago Puccini;IT;Viale dei Tigli 34;55049;Viareggio;43.849768;10.264291;osm-park
+camping-parc-de-la-brenne|Lignac|FR;Camping Parc de la Brenne;Lignac;FR;Camping Parc de la Brenne;36370;Centre-Val de Loire;46.465763;1.218094;osm-plaats
+camping-pieterom|Sleen|NL;Camping Pieterom;Sleen;NL;Zetelveenweg 4;7841 BP;Drenthe;52.771349;6.794570;osm-park
+camping-suderse|Workum|NL;Camping Sudersé;Workum;NL;Slinkewei;8711 HC;Friesland;52.972514;5.426384;osm-park
+camping-zeezicht|Westerland|NL;Camping Zeezicht;Westerland;NL;Dam;1778 KV;Noord-Holland;52.895657;4.913196;osm-park
+ceskysight|Abertamy|CZ;CeskySight;Abertamy;CZ;CeskySight;365 01;Regio Karlsbad;50.368744;12.818260;osm-plaats
+ceskysight|Albrechtice v Jizerských horách|CZ;CeskySight;Albrechtice v Jizerských horách;CZ;CeskySight;468 43;Liberec Region;50.792008;15.274672;osm-plaats
+ceskysight|Bedřichov u Jablonce nad Nisou|CZ;CeskySight;Bedřichov u Jablonce nad Nisou;CZ;CeskySight;468 12;Liberec Region;50.809896;15.157564;osm-plaats
+ceskysight|Benecko|CZ;CeskySight;Benecko;CZ;CeskySight;512 37;Liberec Region;50.654188;15.553584;osm-plaats
+ceskysight|Čeladná|CZ;CeskySight;Čeladná;CZ;CeskySight;739 12;;49.548730;18.337587;osm-plaats
+ceskysight|Čermná u Vrchlabí|CZ;CeskySight;Čermná u Vrchlabí;CZ;CeskySight;;;;;niet-gevonden
+ceskysight|Černý Důl|CZ;CeskySight;Černý Důl;CZ;CeskySight;543 44;Hradec Králové Region;50.635115;15.709623;osm-plaats
+ceskysight|Červené Janovice|CZ;CeskySight;Červené Janovice;CZ;CeskySight;285 42;Centraal-Bohemen;49.834610;15.253333;osm-plaats
+ceskysight|Česká Skalice|CZ;CeskySight;Česká Skalice;CZ;CeskySight;552 03;Hradec Králové Region;50.394554;16.043639;osm-plaats
+ceskysight|Čimelice|CZ;CeskySight;Čimelice;CZ;CeskySight;398 04;;49.472580;14.091875;osm-plaats
+ceskysight|Desná v Jizerských horách|CZ;CeskySight;Desná v Jizerských horách;CZ;CeskySight;468 61;Liberec Region;50.756053;15.314131;osm-plaats
+ceskysight|Doksy|CZ;CeskySight;Doksy;CZ;CeskySight;273 64;Centraal-Bohemen;50.118382;14.046738;osm-plaats
+ceskysight|Dolní Branná|CZ;CeskySight;Dolní Branná;CZ;CeskySight;543 62;Hradec Králové Region;50.593166;15.593817;osm-plaats
+ceskysight|Dolní Podluží|CZ;CeskySight;Dolní Podluží;CZ;CeskySight;407 55;;50.881002;14.594647;osm-plaats
+ceskysight|Frenštát pod Radhoštěm|CZ;CeskySight;Frenštát pod Radhoštěm;CZ;CeskySight;744 01;;49.547422;18.211707;osm-plaats
+ceskysight|Frýdlant nad Ostravicí|CZ;CeskySight;Frýdlant nad Ostravicí;CZ;CeskySight;739 11;;49.593072;18.359630;osm-plaats
+ceskysight|Harrachov v Krkonoších|CZ;CeskySight;Harrachov v Krkonoších;CZ;CeskySight;512 46;Liberec Region;50.776216;15.425108;osm-plaats
+ceskysight|Hejnice|CZ;CeskySight;Hejnice;CZ;CeskySight;561 85;Pardubice Region;50.055618;16.403622;osm-plaats
+ceskysight|Hlinsko v Čechách|CZ;CeskySight;Hlinsko v Čechách;CZ;CeskySight;539 01;Pardubice Region;49.766650;15.901658;osm-plaats
+ceskysight|Horní Maršov|CZ;CeskySight;Horní Maršov;CZ;CeskySight;542 26;Hradec Králové Region;50.658674;15.819984;osm-plaats
+ceskysight|Hutisko-Solanec|CZ;CeskySight;Hutisko-Solanec;CZ;CeskySight;756 62;Zlín Region;49.431264;18.214127;osm-plaats
+ceskysight|Jeseník|CZ;CeskySight;Jeseník;CZ;CeskySight;790 54;okres Jeseník;50.275871;17.180892;osm-plaats
+ceskysight|Kladruby nad Labem|CZ;CeskySight;Kladruby nad Labem;CZ;CeskySight;533 14;Pardubice Region;50.078062;15.476277;osm-plaats
+ceskysight|Kněžmost|CZ;CeskySight;Kněžmost;CZ;CeskySight;294 02;Centraal-Bohemen;50.489173;15.038288;osm-plaats
+ceskysight|Kořenov|CZ;CeskySight;Kořenov;CZ;CeskySight;468 49;Liberec Region;50.759617;15.365897;osm-plaats
+ceskysight|Králíky|CZ;CeskySight;Králíky;CZ;CeskySight;561 69;Pardubice Region;50.084316;16.760373;osm-plaats
+ceskysight|Křetín|CZ;CeskySight;Křetín;CZ;CeskySight;679 62;;49.567304;16.489231;osm-plaats
+ceskysight|Kunčice pod Ondřejníkem|CZ;CeskySight;Kunčice pod Ondřejníkem;CZ;CeskySight;739 13;;49.543208;18.274702;osm-plaats
+ceskysight|Lány|CZ;CeskySight;Lány;CZ;CeskySight;270 61;Centraal-Bohemen;50.124623;13.948307;osm-plaats
+ceskysight|Litvínov|CZ;CeskySight;Litvínov;CZ;CeskySight;436 01;okres Most;50.600953;13.611049;osm-plaats
+ceskysight|Lomnice nad Popelkou|CZ;CeskySight;Lomnice nad Popelkou;CZ;CeskySight;512 51;Liberec Region;50.531065;15.372881;osm-plaats
+ceskysight|Lučany nad Nisou|CZ;CeskySight;Lučany nad Nisou;CZ;CeskySight;468 71;Liberec Region;50.741355;15.220463;osm-plaats
+ceskysight|Malá Morávka|CZ;CeskySight;Malá Morávka;CZ;CeskySight;793 36;;50.021578;17.311848;osm-plaats
+ceskysight|Manětín|CZ;CeskySight;Manětín;CZ;CeskySight;331 62;Regio Pilsen;49.991739;13.232245;osm-plaats
+ceskysight|Mladé Buky|CZ;CeskySight;Mladé Buky;CZ;CeskySight;542 23;Hradec Králové Region;50.606586;15.833083;osm-plaats
+ceskysight|Mnichovo Hradiště|CZ;CeskySight;Mnichovo Hradiště;CZ;CeskySight;295 01;Centraal-Bohemen;50.522986;14.974102;osm-plaats
+ceskysight|Nedvědice|CZ;CeskySight;Nedvědice;CZ;CeskySight;592 62;;49.457050;16.333707;osm-plaats
+ceskysight|Netvořice|CZ;CeskySight;Netvořice;CZ;CeskySight;257 44;Centraal-Bohemen;49.809171;14.520242;osm-plaats
+ceskysight|Pec pod Sněžkou|CZ;CeskySight;Pec pod Sněžkou;CZ;CeskySight;542 21;Hradec Králové Region;50.693574;15.733561;osm-plaats
+ceskysight|Pecka|CZ;CeskySight;Pecka;CZ;CeskySight;507 82;Hradec Králové Region;50.480030;15.608210;osm-plaats
+ceskysight|Písek|CZ;CeskySight;Písek;CZ;CeskySight;397 19;;49.308755;14.147653;osm-plaats
+ceskysight|Počátky|CZ;CeskySight;Počátky;CZ;CeskySight;394 64;;49.260254;15.240405;osm-plaats
+ceskysight|Prosečné|CZ;CeskySight;Prosečné;CZ;CeskySight;543 73;Hradec Králové Region;50.567457;15.680888;osm-plaats
+ceskysight|Radvanice v Čechách|CZ;CeskySight;Radvanice v Čechách;CZ;CeskySight;542 12;Hradec Králové Region;50.561349;16.054980;osm-plaats
+ceskysight|Rokytnice nad Jizerou|CZ;CeskySight;Rokytnice nad Jizerou;CZ;CeskySight;512 44;Liberec Region;50.727229;15.463874;osm-plaats
+ceskysight|Rudník u Vrchlabí|CZ;CeskySight;Rudník u Vrchlabí;CZ;CeskySight;543 72;Hradec Králové Region;50.578136;15.736478;osm-plaats
+ceskysight|Semily|CZ;CeskySight;Semily;CZ;CeskySight;531 01;Liberec Region;50.602249;15.335260;osm-plaats
+ceskysight|Sněžné|CZ;CeskySight;Sněžné;CZ;CeskySight;592 03;;49.658456;16.083419;osm-plaats
+ceskysight|Staré Hamry|CZ;CeskySight;Staré Hamry;CZ;CeskySight;739 15;;49.472655;18.446308;osm-plaats
+ceskysight|Staré Hobzí|CZ;CeskySight;Staré Hobzí;CZ;CeskySight;378 71;;49.010396;15.453207;osm-plaats
+ceskysight|Světlá pod Ještědem|CZ;CeskySight;Světlá pod Ještědem;CZ;CeskySight;463 51;Liberec Region;50.711425;14.985418;osm-plaats
+ceskysight|Tanvald|CZ;CeskySight;Tanvald;CZ;CeskySight;468 41;Liberec Region;50.737988;15.303842;osm-plaats
+ceskysight|Trutnov|CZ;CeskySight;Trutnov;CZ;CeskySight;541 01;Hradec Králové Region;50.560817;15.912897;osm-plaats
+ceskysight|Velké Karlovice|CZ;CeskySight;Velké Karlovice;CZ;CeskySight;756 06;Zlín Region;49.360636;18.283553;osm-plaats
+ceskysight|Víchová nad Jizerou|CZ;CeskySight;Víchová nad Jizerou;CZ;CeskySight;512 41;Liberec Region;50.640652;15.491105;osm-plaats
+ceskysight|Vimperk|CZ;CeskySight;Vimperk;CZ;CeskySight;385 01;;49.052700;13.774198;osm-plaats
+ceskysight|Vítkovice v Krkonoších|CZ;CeskySight;Vítkovice v Krkonoších;CZ;CeskySight;512 38;Liberec Region;50.716856;15.541853;osm-plaats
+ceskysight|Žacléř|CZ;CeskySight;Žacléř;CZ;CeskySight;542 01;Hradec Králové Region;50.658642;15.907811;osm-plaats
+de-boshoeve-nieuwvliet-bad|Eindhoven|NL;De Boshoeve Nieuwvliet Bad;Eindhoven;NL;De Boshoeve Nieuwvliet Bad;5651 CC;Zeeland;51.448557;5.450122;osm-plaats
+de-boshoeve-nieuwvliet-bad|Nieuwvliet-Bad|NL;De Boshoeve Nieuwvliet Bad;Nieuwvliet-Bad;NL;De Boshoeve Nieuwvliet Bad;4504 RD;Zeeland;51.383028;3.447082;osm-plaats
+de-boshoeve-nieuwvliet-bad|Nieuwvliet|NL;De Boshoeve Nieuwvliet Bad;Nieuwvliet;NL;De Boshoeve Nieuwvliet Bad;4504 AH;Zeeland;51.372222;3.472348;osm-plaats
+de-glamping-zeewolde|Zeewolde|NL;De Glamping;Zeewolde;NL;De Glamping;3897 LN;Flevoland;52.345119;5.458077;osm-plaats
+de-maasterp|Ohé en Laak|NL;De Maasterp;Ohé en Laak;NL;Dijk;6109 RD;Limburg;51.112411;5.820128;osm-park
+de-steegsche-hoeve|Schijndel|NL;De Steegsche Hoeve;Schijndel;NL;Steeg;5482 KN;Brabant;51.630290;5.451525;osm-park
+de-wingerd|Bruchterveld|NL;De Wingerd;Bruchterveld;NL;De Wingerd;7695 TH;Overijssel;52.530270;6.661494;osm-plaats
+de-witte-brugh||NL;De Witte Brugh;Ameland;NL;De Witte Brugh;;Ameland;53.406347;5.748250;osm-regio
+domaine-chateau-de-dieupart|Aywaille|BE;Domaine Château de Dieupart;Aywaille;BE;Dieupart 37;4920;Luik;50.478392;5.689815;osm-park
+domaine-des-messires||FR;Domaine des Messires;Herpelmont;FR;Rue des Messires;88600;Herpelmont;48.178079;6.741748;osm-park
+eco-lodges-t-lennepserf|Veessen|NL;Eco Lodges 'T Lennepserf;Veessen;NL;Eco Lodges 'T Lennepserf;8194 LW;Gelderland;52.377249;6.088978;osm-plaats
+engelenhof-winterberg||DE;Engelenhof Winterberg;Winterberg;DE;Engelenhof Winterberg;59955;Winterberg;51.193339;8.533406;osm-regio
+erfgoed-bossem|Lattrop-Breklenkamp|NL;Erfgoed Bossem;Lattrop-Breklenkamp;NL;Erfgoed Bossem;7635 LL;Twente;52.438459;6.979153;osm-plaats
+global-rental-hub|Inari|NO;Global Rental Hub;Inari;NO;Global Rental Hub;;;;;niet-gevonden
+global-rental-hub|Innlandet|NO;Global Rental Hub;Innlandet;NO;Global Rental Hub;2636;Innlandet;61.268105;10.485455;osm-plaats
+global-rental-hub|Nordland|NO;Global Rental Hub;Nordland;NO;Global Rental Hub;;Nordland;67.275634;13.862354;osm-plaats
+global-rental-hub|Phetchaburi|NO;Global Rental Hub;Phetchaburi;NO;Global Rental Hub;;;;;niet-gevonden
+global-rental-hub|Troms og Finnmark|NO;Global Rental Hub;Troms og Finnmark;NO;Global Rental Hub;9600;Finnmark;70.662338;23.677976;osm-plaats
+global-rental-hub|Vestland|NO;Global Rental Hub;Vestland;NO;Global Rental Hub;5729;Vestland;60.929101;6.107887;osm-plaats
+global-rental-hub|Viken|NO;Global Rental Hub;Viken;NO;Global Rental Hub;7142;Trøndelag;63.680722;9.593085;osm-plaats
+hoeve-de-binnenplaets|Schimmert|NL;Hoeve de Binnenplaets;Schimmert;NL;Oensel 10;6333 EN;Limburg;50.909770;5.809058;osm-park
+hoeve-twente|Heythuysen|NL;Hoeve Twente;Heythuysen;NL;Heide 1;6093 PA;Limburg;51.271471;5.874953;osm-park
+jansofat||CW;JanSofat;;CW;JanSofat;;Banda Ariba (oost);;;niet-gevonden
+kampari|Delfstrahuizen|NL;Kampari;Delfstrahuizen;NL;Trekkersweg;8508 RN;Friesland;52.877445;5.851312;osm-park
+kasteelhotel-terborgh|Schinnen|NL;Kasteelhotel Terborgh;Schinnen;NL;Kasteelhotel Terborgh;6365 BK;Limburg;50.942526;5.886194;osm-plaats
+koudum|Koudum|NL;Koudum;Koudum;NL;Nieuweweg;8723 CZ;Friesland;52.916763;5.453907;osm-park
+landgoed-t-borghuis|Losser|NL;Landgoed t Borghuis;Losser;NL;Oldenzaalsestraat 135B;7581 PZ;Twente;52.276058;6.964975;osm-park
+landgoed-t-wildryck|Diever|NL;Landgoed 't Wildryck;Diever;NL;Groningerweg 13;7981 LA;Drenthe;52.865153;6.351161;osm-park
+mini-camping-hofstede-zonnevliet|Zonnemaire|NL;Mini Camping Hofstede Zonnevliet;Zonnemaire;NL;Mini Camping Hofstede Zonnevliet;4316 AJ;Zeeland;51.712905;3.951750;osm-plaats
+minicamping-de-lindenhoeve|Nistelrode|NL;Minicamping De Lindenhoeve;Nistelrode;NL;Minicamping De Lindenhoeve;5388 HE;Brabant;51.704612;5.561415;osm-plaats
+oosterschelde-camping-anna-friso|Kamperland|NL;Oosterschelde camping Anna Friso;Kamperland;NL;Oosterschelde camping Anna Friso;4493 BC;Zeeland;51.568003;3.701710;osm-plaats
+outdoors-holten|Holten|NL;Outdoors Holten;Holten;NL;Langstraat 6;7451 ND;Overijssel;52.262565;6.452338;osm-park
+parc-sonnleiten||AT;Parc Sonnleiten;Karinthië;AT;Parc Sonnleiten;9543;Karinthië;46.750000;13.833333;osm-regio
+recreatieboerderij-tergracht|Epen|NL;Recreatieboerderij Tergracht;Epen;NL;Recreatieboerderij Tergracht;6285 AS;Limburg;50.776671;5.912373;osm-plaats
+recreatiepark-klein-zwitserland|Zuidwolde|NL;Recreatiepark Klein Zwitserland;Zuidwolde;NL;Recreatiepark Klein Zwitserland;9785 AL;Drenthe;53.260711;6.591868;osm-plaats
+rentals-greece|Andros|GR;Rentals Greece;Andros;GR;Rentals Greece;845 01;Zuid-Egeïsche Eilanden;37.840835;24.862382;osm-plaats
+rentals-greece|Antiparos|GR;Rentals Greece;Antiparos;GR;Rentals Greece;840 07;Zuid-Egeïsche Eilanden;36.994353;25.048208;osm-plaats
+rentals-greece|Argolida|GR;Rentals Greece;Argolida;GR;Rentals Greece;220 01;Peloponnesos, West-Griekenland en Ionische Eilanden;37.429902;22.710969;osm-plaats
+rentals-greece|Athens|GR;Rentals Greece;Athens;GR;Rentals Greece;105 57;Attica;37.975565;23.734832;osm-plaats
+rentals-greece|Chalandri|GR;Rentals Greece;Chalandri;GR;Rentals Greece;152 63;Attica;38.021520;23.798414;osm-plaats
+rentals-greece|Heraklion|GR;Rentals Greece;Heraklion;GR;Rentals Greece;712 02;Kreta;35.339080;25.133284;osm-plaats
+rentals-greece|Ios|GR;Rentals Greece;Ios;GR;Rentals Greece;840 01;Zuid-Egeïsche Eilanden;36.717324;25.333112;osm-plaats
+rentals-greece|Kallithea|GR;Rentals Greece;Kallithea;GR;Rentals Greece;176 72;Attica;37.956011;23.703379;osm-plaats
+rentals-greece|Kefalonia|GR;Rentals Greece;Kefalonia;GR;Rentals Greece;280 81;Ionische Eilanden;38.266032;20.537390;osm-plaats
+rentals-greece|Monemvasia|GR;Rentals Greece;Monemvasia;GR;Rentals Greece;230 70;Peloponnesos regio;36.687856;23.050565;osm-plaats
+rentals-greece|Mykonos|GR;Rentals Greece;Mykonos;GR;Rentals Greece;846 00;Zuid-Egeïsche Eilanden;37.451394;25.392315;osm-plaats
+rentals-greece|Nafplio|GR;Rentals Greece;Nafplio;GR;Rentals Greece;211 00;Peloponnesos regio;37.565923;22.806878;osm-plaats
+rentals-greece|Palaio Faliro|GR;Rentals Greece;Palaio Faliro;GR;Rentals Greece;175 61;Attica;37.928276;23.695168;osm-plaats
+rentals-greece|Paros|GR;Rentals Greece;Paros;GR;Rentals Greece;844 00;Zuid-Egeïsche Eilanden;37.065149;25.191978;osm-plaats
+rentals-greece|Patmos|GR;Rentals Greece;Patmos;GR;Rentals Greece;855 00;Zuid-Egeïsche Eilanden;37.324747;26.538156;osm-plaats
+rentals-greece|Piraeus|GR;Rentals Greece;Piraeus;GR;Rentals Greece;185 35;Attica;37.943159;23.647059;osm-plaats
+rentals-greece|Spetses|GR;Rentals Greece;Spetses;GR;Rentals Greece;180 50;Attica;37.258696;23.139719;osm-plaats
+rentals-greece|West Mani|GR;Rentals Greece;West Mani;GR;Rentals Greece;230 63;Peloponnesos regio;36.599502;22.423934;osm-plaats
+rentals-greece|Zografou|GR;Rentals Greece;Zografou;GR;Rentals Greece;157 01;Attica;37.974335;23.791348;osm-plaats
+resort-walsdorf|Tandel|LU;Resort Walsdorf;Tandel;LU;Resort Walsdorf;9465;Tandel;49.908181;6.174708;osm-plaats
+sauerland|Altastenberg|DE;Sauerland;Altastenberg;DE;Sauerland;59955;Sauerland;51.188857;8.467774;osm-plaats
+sauerland|Bödefeld|DE;Sauerland;Bödefeld;DE;Endorfer Straße 9;59846;Sauerland;51.289838;8.034642;osm-park
+sauerland|Diemelsee-heringhausen|DE;Sauerland;Diemelsee-heringhausen;DE;Sonnenweg 29;34519;Sauerland;51.360448;8.725161;osm-park
+sauerland|Düdinghausen|DE;Sauerland;Düdinghausen;DE;Sauerland;59964;Sauerland;51.263373;8.694949;osm-plaats
+sauerland|Elkeringhausen|DE;Sauerland;Elkeringhausen;DE;Sauerland;59955;Sauerland;51.203790;8.572266;osm-plaats
+sauerland|Grönebach|DE;Sauerland;Grönebach;DE;Sauerland;59955;Sauerland;51.228413;8.561512;osm-plaats
+sauerland|Hildfeld|DE;Sauerland;Hildfeld;DE;Sauerland;59955;Sauerland;51.243854;8.565053;osm-plaats
+sauerland|Küstelberg|DE;Sauerland;Küstelberg;DE;Sauerland;59964;Sauerland;51.223618;8.604404;osm-plaats
+sauerland|Medebach|DE;Sauerland;Medebach;DE;Sportstraße;59964;Sauerland;51.253913;8.632872;osm-park
+sauerland|Meschede|DE;Sauerland;Meschede;DE;Sauerland;59872;Sauerland;51.343653;8.285926;osm-plaats
+sauerland|Neuastenberg|DE;Sauerland;Neuastenberg;DE;Zur Lenneplätze 131;59955;Sauerland;51.163225;8.472489;osm-park
+sauerland|Niedersfeld|DE;Sauerland;Niedersfeld;DE;Am Eschenberg 1a;59955;Sauerland;51.240530;8.523982;osm-park
+sauerland|Schwalefeld|DE;Sauerland;Schwalefeld;DE;Sauerland;34508;Sauerland;51.307907;8.630173;osm-plaats
+sauerland|Siedlinghausen|DE;Sauerland;Siedlinghausen;DE;Hochsauerlandstraße 17;59955;Sauerland;51.252599;8.473382;osm-park
+sauerland|Willingen|DE;Sauerland;Willingen;DE;Sauerland;56479;Sauerland;50.667290;8.087214;osm-plaats
+sauerland|Winterberg|DE;Sauerland;Winterberg;DE;Zur Lenneplätze 131;59955;Sauerland;51.163225;8.472489;osm-park
+sauerland|Züschen|DE;Sauerland;Züschen;DE;Nuhnetalstraße;59955;Sauerland;51.153303;8.564362;osm-park
+stay-nordic|Älvdalen|SE;Stay Nordic;Älvdalen;SE;Stay Nordic;;Dalarna County;61.333333;13.750000;osm-plaats
+stay-nordic|Alvesta|SE;Stay Nordic;Alvesta;SE;Stay Nordic;342 93;Kronoberg County;56.916660;14.499883;osm-plaats
+stay-nordic|Ängelholm|SE;Stay Nordic;Ängelholm;SE;Stay Nordic;262 32;Skåne County;56.242922;12.861937;osm-plaats
+stay-nordic|Åre|SE;Stay Nordic;Åre;SE;Stay Nordic;837 52;Jämtland County;63.401089;13.082224;osm-plaats
+stay-nordic|Arvika|SE;Stay Nordic;Arvika;SE;Stay Nordic;671 32;Värmland County;59.654356;12.591622;osm-plaats
+stay-nordic|Askersund|SE;Stay Nordic;Askersund;SE;Stay Nordic;696 30;Örebro County;58.866667;14.916667;osm-plaats
+stay-nordic|Åtvidaberg|SE;Stay Nordic;Åtvidaberg;SE;Stay Nordic;597 30;Östergötland County;58.200988;16.001898;osm-plaats
+stay-nordic|Bankeryd|SE;Stay Nordic;Bankeryd;SE;Stay Nordic;564 31;Jönköping County;57.863142;14.127853;osm-plaats
+stay-nordic|Båstad|SE;Stay Nordic;Båstad;SE;Stay Nordic;269 36;Skåne County;56.426896;12.860879;osm-plaats
+stay-nordic|Bjuv|SE;Stay Nordic;Bjuv;SE;Stay Nordic;267 23;Skåne County;56.084298;12.916730;osm-plaats
+stay-nordic|Borås|SE;Stay Nordic;Borås;SE;Stay Nordic;503 07;Västra Götaland County;57.721084;12.940741;osm-plaats
+stay-nordic|Eda|SE;Stay Nordic;Eda;SE;Stay Nordic;673 35;Värmland County;59.805267;12.310566;osm-plaats
+stay-nordic|Falun|SE;Stay Nordic;Falun;SE;Stay Nordic;791 71;Dalarna County;60.607007;15.632306;osm-plaats
+stay-nordic|Gävle|SE;Stay Nordic;Gävle;SE;Stay Nordic;803 11;Gävleborg County;60.675013;17.146702;osm-plaats
+stay-nordic|Gislaved|SE;Stay Nordic;Gislaved;SE;Stay Nordic;332 37;Jönköping County;57.250000;13.450000;osm-plaats
+stay-nordic|Gnosjö|SE;Stay Nordic;Gnosjö;SE;Stay Nordic;335 93;Jönköping County;57.366667;13.783333;osm-plaats
+stay-nordic|Göteborg|SE;Stay Nordic;Göteborg;SE;Stay Nordic;411 10;Västra Götaland County;57.707233;11.967017;osm-plaats
+stay-nordic|Gotland|SE;Stay Nordic;Gotland;SE;Stay Nordic;;Gotland County;57.417480;18.536958;osm-plaats
+stay-nordic|Hagfors|SE;Stay Nordic;Hagfors;SE;Stay Nordic;683 34;Värmland County;60.029752;13.651857;osm-plaats
+stay-nordic|Halmstad|SE;Stay Nordic;Halmstad;SE;Stay Nordic;302 42;Halland County;56.673983;12.857483;osm-plaats
+stay-nordic|Hässleholm|SE;Stay Nordic;Hässleholm;SE;Stay Nordic;281 31;Skåne County;56.157986;13.765333;osm-plaats
+stay-nordic|Helsingborg|SE;Stay Nordic;Helsingborg;SE;Stay Nordic;252 68;Skåne County;56.044210;12.703706;osm-plaats
+stay-nordic|Hjo|SE;Stay Nordic;Hjo;SE;Stay Nordic;544 31;Västra Götaland County;58.300000;14.216667;osm-plaats
+stay-nordic|Hörby|SE;Stay Nordic;Hörby;SE;Stay Nordic;242 32;Skåne County;55.851152;13.658122;osm-plaats
+stay-nordic|Huddinge|SE;Stay Nordic;Huddinge;SE;Stay Nordic;141 92;Stockholm County;59.216667;18.000000;osm-plaats
+stay-nordic|Hultsfred|SE;Stay Nordic;Hultsfred;SE;Stay Nordic;577 73;Kalmar County;57.400000;15.800000;osm-plaats
+stay-nordic|Jönköping|SE;Stay Nordic;Jönköping;SE;Stay Nordic;551 86;Jönköping County;57.782563;14.165719;osm-plaats
+stay-nordic|Kalmar|SE;Stay Nordic;Kalmar;SE;Stay Nordic;392 31;Kalmar County;56.662883;16.366238;osm-plaats
+stay-nordic|Karlshamn|SE;Stay Nordic;Karlshamn;SE;Stay Nordic;374 36;Blekinge County;56.170172;14.863128;osm-plaats
+stay-nordic|Karlskrona|SE;Stay Nordic;Karlskrona;SE;Stay Nordic;371 30;Blekinge County;56.162107;15.586642;osm-plaats
+stay-nordic|Katrineholm|SE;Stay Nordic;Katrineholm;SE;Stay Nordic;641 46;Södermanland County;58.995912;16.206222;osm-plaats
+stay-nordic|Klippan|SE;Stay Nordic;Klippan;SE;Stay Nordic;264 33;Skåne County;56.134027;13.133225;osm-plaats
+stay-nordic|Kristianstad|SE;Stay Nordic;Kristianstad;SE;Stay Nordic;291 22;Skåne County;56.029378;14.156686;osm-plaats
+stay-nordic|Kungälv|SE;Stay Nordic;Kungälv;SE;Stay Nordic;442 18;Västra Götaland County;57.870795;11.979962;osm-plaats
+stay-nordic|Kungsbacka|SE;Stay Nordic;Kungsbacka;SE;Stay Nordic;434 81;Halland County;57.488856;12.078753;osm-plaats
+stay-nordic|Laholm|SE;Stay Nordic;Laholm;SE;Stay Nordic;312 30;Halland County;56.513274;13.043458;osm-plaats
+stay-nordic|Lidköping|SE;Stay Nordic;Lidköping;SE;Stay Nordic;531 31;Västra Götaland County;58.503720;13.157643;osm-plaats
+stay-nordic|Linköping|SE;Stay Nordic;Linköping;SE;Stay Nordic;582 19;Östergötland County;58.409813;15.624525;osm-plaats
+stay-nordic|Ljungby|SE;Stay Nordic;Ljungby;SE;Stay Nordic;341 43;Kronoberg County;56.832589;13.935992;osm-plaats
+stay-nordic|Markaryd|SE;Stay Nordic;Markaryd;SE;Stay Nordic;285 93;Kronoberg County;56.459613;13.591983;osm-plaats
+stay-nordic|Mellerud|SE;Stay Nordic;Mellerud;SE;Stay Nordic;464 30;Västra Götaland County;58.716667;12.466667;osm-plaats
+stay-nordic|Mjölby|SE;Stay Nordic;Mjölby;SE;Stay Nordic;595 30;Östergötland County;58.316667;15.133333;osm-plaats
+stay-nordic|Mönsterås|SE;Stay Nordic;Mönsterås;SE;Stay Nordic;383 92;Kalmar County;57.066667;16.416667;osm-plaats
+stay-nordic|Motala|SE;Stay Nordic;Motala;SE;Stay Nordic;591 35;Östergötland County;58.542040;15.041261;osm-plaats
+stay-nordic|Munkedal|SE;Stay Nordic;Munkedal;SE;Stay Nordic;;Västra Götaland County;58.550000;11.666667;osm-plaats
+stay-nordic|Norrtälje|SE;Stay Nordic;Norrtälje;SE;Stay Nordic;761 31;Stockholm County;59.766667;18.700000;osm-plaats
+stay-nordic|Nyköping|SE;Stay Nordic;Nyköping;SE;Stay Nordic;611 33;Södermanland County;58.754541;17.012066;osm-plaats
+stay-nordic|Öckerö|SE;Stay Nordic;Öckerö;SE;Stay Nordic;475 32;Västra Götaland County;57.716667;11.633333;osm-plaats
+stay-nordic|Öland|SE;Stay Nordic;Öland;SE;Stay Nordic;387 93;Kalmar County;56.781596;16.662156;osm-plaats
+stay-nordic|Orust|SE;Stay Nordic;Orust;SE;Stay Nordic;473 31;Västra Götaland County;58.200000;11.666667;osm-plaats
+stay-nordic|Osby|SE;Stay Nordic;Osby;SE;Stay Nordic;283 44;Skåne County;56.416667;14.083333;osm-plaats
+stay-nordic|Oskarshamn|SE;Stay Nordic;Oskarshamn;SE;Stay Nordic;572 24;Kalmar County;57.263281;16.444348;osm-plaats
+stay-nordic|Perstorp|SE;Stay Nordic;Perstorp;SE;Stay Nordic;;Skåne County;56.200000;13.366667;osm-plaats
+stay-nordic|Rättvik|SE;Stay Nordic;Rättvik;SE;Stay Nordic;795 03;Dalarna County;60.883754;15.122678;osm-plaats
+stay-nordic|Ronneby|SE;Stay Nordic;Ronneby;SE;Stay Nordic;372 30;Blekinge County;56.210042;15.276036;osm-plaats
+stay-nordic|Sandviken|SE;Stay Nordic;Sandviken;SE;Stay Nordic;811 39;Gävleborg County;60.621865;16.775999;osm-plaats
+stay-nordic|Simrishamn|SE;Stay Nordic;Simrishamn;SE;Stay Nordic;272 31;Skåne County;55.556554;14.349990;osm-plaats
+stay-nordic|Skara|SE;Stay Nordic;Skara;SE;Stay Nordic;532 39;Västra Götaland County;58.384608;13.439768;osm-plaats
+stay-nordic|Skövde|SE;Stay Nordic;Skövde;SE;Stay Nordic;541 50;Västra Götaland County;58.389633;13.845634;osm-plaats
+stay-nordic|Skurup|SE;Stay Nordic;Skurup;SE;Stay Nordic;274 34;Skåne County;55.481509;13.554477;osm-plaats
+stay-nordic|Södertälje|SE;Stay Nordic;Södertälje;SE;Stay Nordic;151 72;Stockholm County;59.196429;17.627166;osm-plaats
+stay-nordic|Sölvesborg|SE;Stay Nordic;Sölvesborg;SE;Stay Nordic;294 31;Blekinge County;56.050654;14.587191;osm-plaats
+stay-nordic|Sotenäs|SE;Stay Nordic;Sotenäs;SE;Stay Nordic;456 91;Västra Götaland County;58.416667;11.333333;osm-plaats
+stay-nordic|Stenungsund|SE;Stay Nordic;Stenungsund;SE;Stay Nordic;444 84;Västra Götaland County;58.083333;11.916667;osm-plaats
+stay-nordic|Strängnäs|SE;Stay Nordic;Strängnäs;SE;Stay Nordic;645 31;Södermanland County;59.376315;17.026819;osm-plaats
+stay-nordic|Svenljunga|SE;Stay Nordic;Svenljunga;SE;Stay Nordic;512 53;Västra Götaland County;57.496350;13.111555;osm-plaats
+stay-nordic|Tanum|SE;Stay Nordic;Tanum;SE;Stay Nordic;457 32;Västra Götaland County;58.750000;11.416667;osm-plaats
+stay-nordic|Tierp|SE;Stay Nordic;Tierp;SE;Stay Nordic;815 40;Uppsala County;60.342961;17.516839;osm-plaats
+stay-nordic|Tjörn|SE;Stay Nordic;Tjörn;SE;Stay Nordic;471 94;Västra Götaland County;58.033333;11.666667;osm-plaats
+stay-nordic|Tomelilla|SE;Stay Nordic;Tomelilla;SE;Stay Nordic;273 34;Skåne County;55.544748;13.932929;osm-plaats
+stay-nordic|Torsås|SE;Stay Nordic;Torsås;SE;Stay Nordic;385 96;Kalmar County;56.416667;15.833333;osm-plaats
+stay-nordic|Trollhättan|SE;Stay Nordic;Trollhättan;SE;Stay Nordic;461 83;Västra Götaland County;58.282793;12.290861;osm-plaats
+stay-nordic|Uddevalla|SE;Stay Nordic;Uddevalla;SE;Stay Nordic;451 30;Västra Götaland County;58.349055;11.938285;osm-plaats
+stay-nordic|Uppsala|SE;Stay Nordic;Uppsala;SE;Stay Nordic;753 20;Uppsala County;59.858613;17.638744;osm-plaats
+stay-nordic|Uppvidinge|SE;Stay Nordic;Uppvidinge;SE;Stay Nordic;364 43;Kronoberg County;57.000000;15.666667;osm-plaats
+stay-nordic|Vänersborg|SE;Stay Nordic;Vänersborg;SE;Stay Nordic;462 80;Västra Götaland County;58.381199;12.322688;osm-plaats
+stay-nordic|Värmdö|SE;Stay Nordic;Värmdö;SE;Stay Nordic;139 41;Stockholm County;59.300000;18.583333;osm-plaats
+stay-nordic|Värnamo|SE;Stay Nordic;Värnamo;SE;Stay Nordic;331 30;Jönköping County;57.184902;14.041098;osm-plaats
+stay-nordic|Västervik|SE;Stay Nordic;Västervik;SE;Stay Nordic;593 30;Kalmar County;57.759419;16.638503;osm-plaats
+stay-nordic|Vimmerby|SE;Stay Nordic;Vimmerby;SE;Stay Nordic;598 86;Kalmar County;57.683333;15.833333;osm-plaats
+stay-nordic|Vingåker|SE;Stay Nordic;Vingåker;SE;Stay Nordic;;Södermanland County;59.066667;15.883333;osm-plaats
+stay-nordic|Ystad|SE;Stay Nordic;Ystad;SE;Stay Nordic;271 43;Skåne County;55.429520;13.820117;osm-plaats
+urban-gardens|Ieper|BE;Urban gardens;Ieper;BE;Bolwerkstraat 1;8900;West-Vlaanderen;50.846945;2.897377;osm-park
+vakantiepark-aan-de-maas|Kerkdriel|NL;Vakantiepark Aan de Maas;Kerkdriel;NL;Piekenwaardweg 10;5331 PD;Gelderland;51.778271;5.334663;osm-park
+vakantiepark-callassande|Callantsoog|NL;Vakantiepark Callassande;Callantsoog;NL;Vakantiepark Callassande;1759 GT;Noord-Holland;52.836343;4.697128;osm-plaats
+vakantiepark-de-nollen|Callantsoog|NL;Vakantiepark De Nollen;Callantsoog;NL;Vakantiepark De Nollen;1759 GT;Noord-Holland;52.836343;4.697128;osm-plaats
+vakantiepark-de-wiedense-meren|Wanneperveen|NL;Vakantiepark De Wiedense Meren;Wanneperveen;NL;Veneweg 306;7946 LX;Overijssel;52.688759;6.045521;osm-park
+vakantiepark-de-wiltzangh|Ruinen|NL;Vakantiepark De Wiltzangh;Ruinen;NL;Vakantiepark De Wiltzangh;7963 AB;Drenthe;52.764154;6.360008;osm-plaats
+vakantiepark-de-zeeuwse-parel|Scherpenisse|NL;Vakantiepark de Zeeuwse Parel;Scherpenisse;NL;Geertruidaweg;4694 PH;Zeeland;51.536086;4.077349;osm-park
+vakantiepark-kijkduin|Den Haag|NL;Vakantiepark Kijkduin;Den Haag;NL;Machiel Vrijenhoeklaan 450;2555 NW;Zuid-Holland;52.059726;4.211934;osm-park
+vakantiepark-klein-strand||BE;Vakantiepark Klein Strand;Jabbeke;BE;Vakantiepark Klein Strand;8490;Jabbeke;51.191219;3.100769;osm-regio
+vakantiepark-klein-vink|Arcen|NL;Vakantiepark Klein Vink;Arcen;NL;Vakantiepark Klein Vink;5944 CZ;Limburg;51.476261;6.178508;osm-plaats
+villa-france|Ain|FR;Villa France;Ain;FR;Villa France;01160;Auvergne-Rhône-Alpes;46.065238;5.284772;osm-plaats
+villa-france|Alpes marítimos|FR;Villa France;Alpes marítimos;FR;Villa France;06420;Provence-Alpes-Côte d'Azur;43.921059;7.179079;osm-plaats
+villa-france|Aude|FR;Villa France;Aude;FR;Villa France;11220;Occitanië;43.054273;2.512472;osm-plaats
+villa-france|Bouches-du-Rhône|FR;Villa France;Bouches-du-Rhône;FR;Villa France;13250;Provence-Alpes-Côte d'Azur;43.542418;5.034324;osm-plaats
+villa-france|Charente|FR;Villa France;Charente;FR;Villa France;16730;Nieuw-Aquitanië;45.666790;0.097305;osm-plaats
+villa-france|Corrèze|FR;Villa France;Corrèze;FR;Villa France;19800;Nieuw-Aquitanië;45.342905;1.817642;osm-plaats
+villa-france|Dordoña|FR;Villa France;Dordoña;FR;Villa France;;;;;niet-gevonden
+villa-france|Drôme|FR;Villa France;Drôme;FR;Villa France;26340;Auvergne-Rhône-Alpes;44.729535;5.204637;osm-plaats
+villa-france|Gard|FR;Villa France;Gard;FR;Villa France;30190;Occitanië;43.959950;4.297637;osm-plaats
+villa-france|Hérault|FR;Villa France;Hérault;FR;Villa France;34800;Occitanië;43.591422;3.355331;osm-plaats
+villa-france|Lot-et-Garonne|FR;Villa France;Lot-et-Garonne;FR;Villa France;47320;Nieuw-Aquitanië;44.369170;0.453916;osm-plaats
+villa-france|Saône-et-Loire|FR;Villa France;Saône-et-Loire;FR;Villa France;71460;Bourgondië-Franche-Comté;46.655709;4.558683;osm-plaats
+villa-france|Var|FR;Villa France;Var;FR;Villa France;83340;Provence-Alpes-Côte d'Azur;43.417355;6.266464;osm-plaats
+villa-france|Vaucluse|FR;Villa France;Vaucluse;FR;Villa France;84210;Provence-Alpes-Côte d'Azur;43.993864;5.181890;osm-plaats
+villa-topzicht||CW;Villa Topzicht;;CW;Villa Topzicht;;Cas Grandi;;;niet-gevonden
+vivi-rent-fasana|Fazana|HR;Vivi Rent Fasana;Fazana;HR;Vivi Rent Fasana;52212;Istrië;44.927333;13.805077;osm-plaats
+vivi-rent-salvela|Vodnjan|HR;Vivi Rent Salvela;Vodnjan;HR;Vivi Rent Salvela;52216;Istrië;44.960339;13.849780;osm-plaats
+vrijheid-aan-de-kust|'t Zand|NL;Vrijheid aan de kust;'t Zand;NL;Vrijheid aan de kust;1756 AM;Noord-Holland;52.835749;4.756517;osm-plaats
+vrijheid-aan-de-kust|Callantsoog|NL;Vrijheid aan de kust;Callantsoog;NL;Vrijheid aan de kust;1759 GT;Noord-Holland;52.836343;4.697128;osm-plaats
+vrijheid-aan-de-kust|Groote Keeten|NL;Vrijheid aan de kust;Groote Keeten;NL;Vrijheid aan de kust;1759 NH;Noord-Holland;52.863095;4.710831;osm-plaats
+vrijheid-aan-de-kust|Julianadorp Aan Zee|NL;Vrijheid aan de kust;Julianadorp Aan Zee;NL;Vrijheid aan de kust;1787 AR;Noord-Holland;52.892267;4.757719;osm-plaats
+vrijheid-aan-de-kust|Julianadorp|NL;Vrijheid aan de kust;Julianadorp;NL;Vrijheid aan de kust;1788 LT;Noord-Holland;52.890704;4.744613;osm-plaats
+vrijheid-aan-de-kust|Oudesluis|NL;Vrijheid aan de kust;Oudesluis;NL;Vrijheid aan de kust;1757 PC;Noord-Holland;52.833401;4.811175;osm-plaats
+vrijheid-aan-de-kust|Petten|NL;Vrijheid aan de kust;Petten;NL;Vrijheid aan de kust;1755 NN;Noord-Holland;52.768597;4.662609;osm-plaats
+vrijheid-aan-de-kust|Sint Maartenszee|NL;Vrijheid aan de kust;Sint Maartenszee;NL;Vrijheid aan de kust;1753 KC;Noord-Holland;52.792229;4.687475;osm-plaats
+wilsumer-berge|Wilsum|DE;Wilsumer Berge;Wilsum;DE;Uelsener Straße;49849;Wilsum;52.514215;6.860359;osm-park
+woodz-lodges|Heusden-zolder|BE;Woodz Lodges;Heusden-zolder;BE;Kerkstraat 96;3550;Heusden-zolder;50.994826;5.254714;osm-park
+zomers-buiten|Oude Pekela|NL;Zomers Buiten;Oude Pekela;NL;Zomers Buiten;9665 GL;Groningen;53.107432;7.013857;osm-plaats

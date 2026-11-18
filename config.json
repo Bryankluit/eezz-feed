@@ -1,0 +1,21 @@
+{
+  "siteUrl": "https://www.eezz.nl",
+  "apiBase": "https://connect.eezz.nl/api/v1",
+  "apiKey": "",
+  "language": "nl-NL",
+  "currency": "EUR",
+  "windowDays": 365,
+  "soonDays": 30,
+  "concurrency": 4,
+  "detailRefreshDays": 7,
+  "quoteCacheDays": 7,
+  "quoteAdults": 2,
+  "quoteMinNights": 3,
+  "minPricePerNight": 15,
+  "maxPricePerNight": 5000,
+  "maxImages": 20,
+  "imageSize": "large",
+  "feedTitle": "EEZZ accommodaties",
+  "outputFile": "output/eezz-meta-hotel-feed.xml",
+  "minFeedRatio": 0.7
+}

@@ -1,0 +1,6 @@
+# Tussengeheugen (groot, wordt in GitHub Actions via actions/cache bewaard)
+data/cache-*.json
+data/*.tmp
+
+# Uitvoer: de feed wordt gepubliceerd als release-bestand, niet gecommit
+output/

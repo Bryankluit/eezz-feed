@@ -1,0 +1,88 @@
+name: EEZZ Meta-hotelfeed
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # dagelijks 04:00 UTC = 05:00 NL wintertijd / 06:00 zomertijd
+  workflow_dispatch:
+
+permissions:
+  contents: write # nodig voor de release en het terugschrijven van data/locaties.csv
+
+concurrency:
+  group: eezz-feed
+  cancel-in-progress: false
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RELEASE_TAG: feed-eezz
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Tussengeheugen + samenvatting van de vorige run (nodig voor de 70%-veiligheidscheck)
+      - name: Cache herstellen
+        id: cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            data/cache-*.json
+            output/samenvatting.json
+          key: eezz-feed-${{ github.run_id }}
+          restore-keys: eezz-feed-
+
+      - name: Feed genereren
+        id: run
+        run: |
+          set +e
+          node eezz-meta-feed.mjs
+          code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" = "2" ]; then echo "::warning::Feed afgekeurd (te weinig items t.o.v. vorige run). Oude feed blijft staan."; fi
+          exit 0
+
+      - name: Feed controleren
+        id: check
+        if: steps.run.outputs.code == '0'
+        run: node controleer-feed.mjs
+
+      - name: Publiceren als release-bestand
+        if: steps.run.outputs.code == '0' && steps.check.outcome == 'success'
+        run: |
+          if ! gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            gh release create "$RELEASE_TAG" --title "EEZZ Meta-hotelfeed" \
+              --notes "Wordt dagelijks automatisch bijgewerkt. Feed-URL voor Meta: https://github.com/${{ github.repository }}/releases/download/$RELEASE_TAG/eezz-meta-hotel-feed.xml" \
+              --latest=false
+          fi
+          gh release upload "$RELEASE_TAG" output/eezz-meta-hotel-feed.xml output/rapport.csv output/samenvatting.json --clobber
+
+      - name: Nieuwe adressen committen
+        if: steps.run.outputs.code == '0' || steps.run.outputs.code == '2'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/locaties.csv data/geocache.json
+          if git diff --cached --quiet; then echo "Geen nieuwe adressen."; exit 0; fi
+          git commit -m "Adressen bijgewerkt ($(date -u +%F))"
+          git push
+
+      - name: Cache opslaan
+        if: always() && (steps.run.outputs.code == '0' || steps.run.outputs.code == '2')
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            data/cache-*.json
+            output/samenvatting.json
+          key: eezz-feed-${{ github.run_id }}
+
+      - name: Run als mislukt markeren
+        if: steps.run.outputs.code != '0'
+        run: |
+          echo "Feed-script stopte met code ${{ steps.run.outputs.code }}; er is niets gepubliceerd."
+          exit 1

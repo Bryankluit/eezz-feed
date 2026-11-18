@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Wordt door het script met BOM en CRLF geschreven (Excel-vriendelijk); niet omzetten
+data/locaties.csv -text
