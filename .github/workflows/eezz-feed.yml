@@ -72,6 +72,21 @@ jobs:
           git commit -m "Adressen bijgewerkt ($(date -u +%F))"
           git push
 
+      # GitHub zet geplande workflows uit na 60 dagen zonder commits; na 45 dagen stilte een lege commit
+      - name: Workflow actief houden
+        if: always()
+        run: |
+          git pull --quiet --ff-only || true
+          last=$(git log -1 --format=%ct)
+          age_days=$(( ( $(date +%s) - last ) / 86400 ))
+          echo "Laatste commit: $age_days dagen geleden."
+          if [ "$age_days" -ge 45 ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit --allow-empty -m "Workflow actief houden ($(date -u +%F))"
+            git push
+          fi
+
       - name: Cache opslaan
         if: always() && (steps.run.outputs.code == '0' || steps.run.outputs.code == '2')
         uses: actions/cache/save@v4
