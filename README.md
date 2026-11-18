@@ -40,17 +40,28 @@ Je hebt alleen Node.js 18 of hoger nodig, verder geen packages.
 
 ## Labels voor productsets in Meta
 
+Regel: eerst een standaardveld van de hotelcatalogus; alleen als dat er niet is een `internal_label`. Geen `custom_label_*` of `custom_number_*` (de controle keurt de feed dan af).
+
+**Standaardvelden**
+
 | Veld | Inhoud |
 |---|---|
-| `custom_label_0` | land (bv. Nederland) |
-| `custom_label_1` | regio |
-| `custom_label_2` | park |
-| `custom_label_3` | personen (1-2, 3-4, 5-6, 7-8, 9+) |
-| `custom_label_4` | beschikbaar binnen 30 dagen / beschikbaar na 30 dagen / niet beschikbaar |
-| `custom_number_0..3` | max. personen, slaapkamers, huisdieren (1/0), aantal boekbare aankomstdagen |
+| `address.country` | land |
+| `address.region` | regio |
+| `brand` | park / aanbieder |
 | `category` | type (Lodge, Chalet, Stacaravan, Glamping, Villa, …), afgeleid uit de naam |
+| `status` | `archived` als er in de komende 365 dagen geen aankomstdag is (volgeboekt), anders `active` |
 
-Tip: maak een productset met `custom_label_4` ≠ "niet beschikbaar", zodat je geen volgeboekte accommodaties adverteert.
+**Interne labels** (één `<internal_label>`-tag per label, alleen voor jou zichtbaar)
+
+| Label | Betekenis |
+|---|---|
+| `personen-1-2`, `personen-3-4`, `personen-5-6`, `personen-7-8`, `personen-9-plus` | max. aantal personen |
+| `slaapkamers-N` | aantal slaapkamers (de hotelcatalogus heeft hier geen standaardveld voor) |
+| `huisdieren-toegestaan` | huisdieren toegestaan |
+| `lastminute` | eerste aankomstdag binnen 14 dagen (`soonDays`); wordt elke run opnieuw bepaald en verdwijnt vanzelf |
+
+Gearchiveerde accommodaties toont Meta niet in advertenties; een aparte uitsluit-set is dus niet nodig.
 
 ## Adressen verbeteren
 

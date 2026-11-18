@@ -5,7 +5,7 @@
   "language": "nl-NL",
   "currency": "EUR",
   "windowDays": 365,
-  "soonDays": 30,
+  "soonDays": 14,
   "concurrency": 4,
   "detailRefreshDays": 7,
   "quoteCacheDays": 7,

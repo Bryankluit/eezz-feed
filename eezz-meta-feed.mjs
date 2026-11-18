@@ -35,7 +35,7 @@ const DEFAULTS = {
   fallbackLanguage: 'en-US',
   currency: 'EUR',
   windowDays: 365, // beschikbaarheid en vanaf-prijs over deze periode
-  soonDays: 30, // grens voor label "beschikbaar binnen 30 dagen"
+  soonDays: 14, // last minute: eerste aankomstdag binnen zoveel dagen → intern label "lastminute"
   concurrency: 4,
   detailRefreshDays: 7, // details gemiddeld eens per week verversen (gespreid)
   quoteCacheDays: 7, // offerteprijzen (partners zonder kalenderprijs) een week bewaren
@@ -334,12 +334,11 @@ const TYPES = [
 ];
 const typeOf = (name) => (TYPES.find(([, re]) => re.test(name)) || ['Vakantieaccommodatie'])[0];
 function personGroup(n) {
-  if (!n) return 'onbekend';
-  if (n <= 2) return '1-2 personen';
-  if (n <= 4) return '3-4 personen';
-  if (n <= 6) return '5-6 personen';
-  if (n <= 8) return '7-8 personen';
-  return '9+ personen';
+  if (n <= 2) return 'personen-1-2';
+  if (n <= 4) return 'personen-3-4';
+  if (n <= 6) return 'personen-5-6';
+  if (n <= 8) return 'personen-7-8';
+  return 'personen-9-plus';
 }
 
 // ---------------------------------------------------------------- hoofdprogramma
@@ -496,7 +495,8 @@ async function main() {
   const report = [];
   const skipped = {};
   const skip = (rep, reason) => { rep.reden = reason; skipped[reason] = (skipped[reason] || 0) + 1; };
-  const tally = { metPrijs: 0, prijsKalender: 0, prijsOfferte: 0, binnen30: 0, later: 0, nietBeschikbaar: 0, uitCache: 0 };
+  const soonLimit = addDays(today, CFG.soonDays);
+  const tally = { metPrijs: 0, prijsKalender: 0, prijsOfferte: 0, lastminute: 0, later: 0, nietBeschikbaar: 0, gearchiveerd: 0, uitCache: 0 };
   const addrQuality = {};
 
   for (const r of recs) {
@@ -515,8 +515,13 @@ async function main() {
 
     const av = r.av;
     if (r.fromCache) tally.uitCache++;
-    const status = av.bookableDays > 0 ? (av.soon ? `beschikbaar binnen ${CFG.soonDays} dagen` : `beschikbaar na ${CFG.soonDays} dagen`) : 'niet beschikbaar';
-    if (av.bookableDays > 0) (av.soon ? tally.binnen30++ : tally.later++); else tally.nietBeschikbaar++;
+    // last minute: eerste aankomstdag binnen soonDays na vandaag (ook juist bij cachegegevens)
+    const lastminute = av.bookableDays > 0 && !!av.firstBookable && av.firstBookable <= soonLimit;
+    // volgeboekt → gearchiveerd via standaardveld status; bij een ophaalfout niet archiveren
+    const archived = !av.bookableDays && !av.error;
+    const status = av.bookableDays > 0 ? (lastminute ? 'last minute' : 'beschikbaar') : (av.error ? 'onbekend (ophaalfout)' : 'niet beschikbaar');
+    if (av.bookableDays > 0) (lastminute ? tally.lastminute++ : tally.later++); else tally.nietBeschikbaar++;
+    if (archived) tally.gearchiveerd++;
     const price = av.best ? `${(Math.round(av.best.perNight) / 100).toFixed(2)} ${CFG.currency}` : '';
     if (price) { tally.metPrijs++; av.best.source === 'offerte' ? tally.prijsOfferte++ : tally.prijsKalender++; }
     addrQuality[loc.bron || 'onbekend'] = (addrQuality[loc.bron || 'onbekend'] || 0) + 1;
@@ -546,15 +551,14 @@ async function main() {
     for (const url of images) L.push(`    <image><url>${xmlEsc(url)}</url></image>`);
     L.push(`    <url>${xmlEsc(`${CFG.siteUrl}/accommodaties/${r.slug}`)}</url>`);
     L.push(`    <category>${xmlEsc(typ)}</category>`);
-    L.push(`    <custom_label_0>${xmlEsc(truncate(r.landNl, 100))}</custom_label_0>`);
-    L.push(`    <custom_label_1>${xmlEsc(truncate(regio || plaats, 100))}</custom_label_1>`);
-    L.push(`    <custom_label_2>${xmlEsc(truncate(r.parkName || '', 100))}</custom_label_2>`);
-    L.push(`    <custom_label_3>${personGroup(r.src.max_occupancy)}</custom_label_3>`);
-    L.push(`    <custom_label_4>${status}</custom_label_4>`);
-    L.push(`    <custom_number_0>${r.src.max_occupancy || 0}</custom_number_0>`);
-    L.push(`    <custom_number_1>${r.src.bedrooms || 0}</custom_number_1>`);
-    L.push(`    <custom_number_2>${r.src.pets_allowed ? 1 : 0}</custom_number_2>`);
-    L.push(`    <custom_number_3>${av.bookableDays || 0}</custom_number_3>`);
+    L.push(`    <status>${archived ? 'archived' : 'active'}</status>`);
+    // interne labels alleen voor gegevens zonder standaardveld in de hotelcatalogus (één tag per label)
+    const labels = [];
+    if (r.src.max_occupancy) labels.push(personGroup(r.src.max_occupancy));
+    if (r.src.bedrooms) labels.push(`slaapkamers-${r.src.bedrooms}`);
+    if (r.src.pets_allowed) labels.push('huisdieren-toegestaan');
+    if (lastminute) labels.push('lastminute');
+    for (const lb of labels) L.push(`    <internal_label>${xmlEsc(lb)}</internal_label>`);
     L.push('  </listing>');
     listings.push(L.join('\n'));
 

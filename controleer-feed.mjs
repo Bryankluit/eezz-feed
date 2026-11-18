@@ -54,7 +54,9 @@ for (const l of listings) {
   if (bp) { priced++; if (!/^\d+\.\d{2} [A-Z]{3}$/.test(bp)) errors.push(`${id}: base_price-formaat "${bp}"`); } else w('geen base_price (optioneel zonder kamerinfo)');
   const pageUrl = (l.match(/^\s*<url>([^<]+)<\/url>/m) || [])[1] || '';
   if (!/^https:\/\/www\.eezz\.nl\/accommodaties\//.test(pageUrl)) errors.push(`${id}: onverwachte url`);
-  for (let i = 0; i <= 4; i++) { const v = get(l, `custom_label_${i}`); if (v && v.length > 100) errors.push(`${id}: custom_label_${i} > 100 tekens`); }
+  if (/<custom_(label|number)_\d>/.test(l)) errors.push(`${id}: custom_label/custom_number gebruikt (gebruik standaardvelden of internal_label)`);
+  for (const m of l.matchAll(/<internal_label>([^<]*)<\/internal_label>/g)) if (!m[1] || m[1].length > 110 || /^\s|\s$|'/.test(m[1])) errors.push(`${id}: ongeldig internal_label "${m[1]}"`);
+  const st = get(l, 'status'); if (st && !['active', 'archived'].includes(st)) errors.push(`${id}: ongeldige status "${st}"`);
 }
 
 console.log(`Bestand: ${file} (${(xml.length / 1048576).toFixed(1)} MB)`);
