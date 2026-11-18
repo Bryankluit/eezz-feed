@@ -21,7 +21,7 @@ Je hebt alleen Node.js 18 of hoger nodig, verder geen packages.
 `.github/workflows/eezz-feed.yml` draait dagelijks om 04:00 UTC en is ook met de hand te starten (tab **Actions** → *EEZZ Meta-hotelfeed* → *Run workflow*).
 
 - Een goedgekeurde feed komt als bestand bij de release `feed-eezz`. Feed-URL voor Meta:
-  `https://github.com/pure-minds/eezz-feed/releases/download/feed-eezz/eezz-meta-hotel-feed.xml`
+  `https://github.com/Bryankluit/eezz-feed/releases/download/feed-eezz/eezz-meta-hotel-feed.xml`
 - `rapport.csv` en `samenvatting.json` staan bij dezelfde release.
 - Nieuwe adressen (`data/locaties.csv`, `data/geocache.json`) worden teruggecommit. Haal ze dus eerst binnen (`git pull`) voordat je adressen met de hand verbetert.
 - Is de feed afgekeurd (exitcode 2) of geeft de controle fouten, dan wordt er niets gepubliceerd, blijft de vorige feed staan en wordt de run rood.
